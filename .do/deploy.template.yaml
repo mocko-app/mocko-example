@@ -1,0 +1,7 @@
+spec:
+ name: mocko-example
+ services:
+ - name: proxy
+   git:
+     branch: main
+     repo_clone_url: https://github.com/gabriel-pinheiro/mocko-example.git

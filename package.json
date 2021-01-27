@@ -1,0 +1,31 @@
+{
+  "name": "mocko-example",
+  "version": "1.0.0",
+  "description": "A sample mocko deployment for PaaS",
+  "main": "index.js",
+  "scripts": {
+    "start": "mocko ./mocks",
+    "start:dev": "mocko --watch ./mocks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-pinheiro/mocko.git"
+  },
+  "keywords": [
+    "mock",
+    "stub",
+    "double",
+    "http",
+    "mocko",
+    "test"
+  ],
+  "author": "Gabriel Pinheiro <gabrielctpinheiro@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gabriel-pinheiro/mocko/issues"
+  },
+  "homepage": "https://github.com/gabriel-pinheiro/mocko#readme",
+  "dependencies": {
+    "@mocko/cli": "^1.4.9"
+  }
+}
