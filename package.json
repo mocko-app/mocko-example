@@ -1,7 +1,7 @@
 {
   "name": "mocko-example",
   "version": "1.0.0",
-  "description": "A sample mocko deployment for PaaS",
+  "description": "A sample Mocko deployment for PaaS providers",
   "main": "index.js",
   "scripts": {
     "start": "mocko ./mocks",
