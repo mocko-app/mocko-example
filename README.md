@@ -17,22 +17,24 @@ Click this button to deploy the app to Heroku, it's free.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
+If you deploy using this button you won't be able to make changes to the mocks as you are using this repo directly. If you wish so, you will need to make your own copy of this repository.
 
-- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
+To make a copy, click the Fork button above and follow the on-screen instructions. In this case, you'll be forking this repo as a starting point for your own mocko deployment (see [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) to learn more about forking repos).
+
+After forking the repo, you should now be viewing this README in your own github org (e.g. https://github.com/&lt;your-org&gt;/mocko-example). To deploy the new repo, visit https://dashboard.heroku.com/new-app, choose a name, region and click `Create App`. Then, under the `Deploy` tab, in the `Deployment method` section, choose GitHub, select your fork of this repository (Search + Connect).
+
+To have it automatically updated when you commit to the main branch, below that on `Automatic deploys` choose the main branch and click `Enable Automatic Deploys`. For your first deploy, click the `Deploy Branch` button in the `Manual deploy` section. After the build and deployment, click the `View` button to access your mocks.
+
 ## DigitalOcean (Paid)
 Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/gabriel-pinheiro/mocko-example/tree/main&refcode=8481ef80a400)
 
-Using this button disable the "Auto deploy changes on push" feature as you are using this repo directly. If you wish to try that feature, you will need to make your own copy of this repository.
+Using this button disables the "Auto deploy changes on push" feature as you are using this repo directly. If you wish to try that feature, you will need to make your own copy of this repository.
 
-To make a copy, click the Fork button above and follow the on-screen instructions. In this case, you'll be forking this repo as a starting point for your own app (see GitHub documentation to learn more about forking repos.
+To make a copy, click the Fork button above and follow the on-screen instructions. In this case, you'll be forking this repo as a starting point for your own mocko deployment (see [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) to learn more about forking repos).
 
-After forking the repo, you should now be viewing this README in your own github org (e.g. https://github.com/<your-org>/mocko-example). To deploy the new repo, visit https://cloud.digitalocean.com/apps and click "Create App" or "Launch Your App". Then, select the repository you created and be sure to select the main branch.
+After forking the repo, you should now be viewing this README in your own github org (e.g. https://github.com/&lt;your-org&gt;/mocko-example). To deploy the new repo, visit https://cloud.digitalocean.com/apps and click "Create App" or "Launch Your App". Then, select the repository you created and be sure to select the main branch.
 
 After clicking the "Deploy to DigitalOcean" button or completing the instructions above to fork the repo, follow these steps:
 
@@ -42,6 +44,3 @@ After clicking the "Deploy to DigitalOcean" button or completing the instruction
 - You should see a "Building..." progress indicator. And you can click "Deployments"→"Details" to see more details of the build.
 - It can take a few minutes for the build to finish, but you can follow the progress by clicking the "Details" link in the top banner.
 - Once the build completes successfully, click the "Live App" link in the header and you should see your running application in a new tab, displaying the home page.
-
-# Making Changes to Your Deployment
-TODO
