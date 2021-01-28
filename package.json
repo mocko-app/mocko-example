@@ -7,8 +7,8 @@
     "node": ">=12.0.0"
   },
   "scripts": {
-    "start": "mocko ./mocks",
-    "start:dev": "mocko --watch ./mocks"
+    "start": "mocko --watch ./mocks",
+    "start:prod": "mocko ./mocks"
   },
   "repository": {
     "type": "git",

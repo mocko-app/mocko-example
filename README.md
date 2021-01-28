@@ -3,7 +3,17 @@ Here you'll find a simple Mocko deployment example that you can easily deploy to
 
 # Deploying
 
-## DigitalOcean
+## Glitch (Free)
+Click this button to deploy the app to glitch.com, it's free and you don't need to register.
+
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/gabriel-pinheiro/mocko-example)
+
+Wait until the app is deployed (check `Tools -> Logs` in the bottom left corner) and access it with the URL provided in the `Show -> In a New Window` button in the top left corner.
+
+In the files drawer on the left, you can change the mocks inside the `mocks` folder and they'll update in real time.
+
+
+## DigitalOcean (Paid)
 Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/gabriel-pinheiro/mocko-example/tree/main&refcode=8481ef80a400)
@@ -12,7 +22,7 @@ Using this button disable the "Auto deploy changes on push" feature as you are u
 
 To make a copy, click the Fork button above and follow the on-screen instructions. In this case, you'll be forking this repo as a starting point for your own app (see GitHub documentation to learn more about forking repos.
 
-After forking the repo, you should now be viewing this README in your own github org (e.g. https://github.com/<your-org>/sample-golang). To deploy the new repo, visit https://cloud.digitalocean.com/apps and click "Create App" or "Launch Your App". Then, select the repository you created and be sure to select the main branch.
+After forking the repo, you should now be viewing this README in your own github org (e.g. https://github.com/<your-org>/mocko-example). To deploy the new repo, visit https://cloud.digitalocean.com/apps and click "Create App" or "Launch Your App". Then, select the repository you created and be sure to select the main branch.
 
 After clicking the "Deploy to DigitalOcean" button or completing the instructions above to fork the repo, follow these steps:
 
@@ -25,7 +35,3 @@ After clicking the "Deploy to DigitalOcean" button or completing the instruction
 
 # Making Changes to Your Deployment
 TODO
-
-# Usage
-TODO
-
