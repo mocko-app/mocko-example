@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A sample Mocko deployment for PaaS providers",
   "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "scripts": {
     "start": "mocko ./mocks",
     "start:dev": "mocko --watch ./mocks"
