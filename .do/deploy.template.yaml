@@ -2,6 +2,12 @@ spec:
  name: mocko-example
  services:
  - name: proxy
+   http_port: 8080
+   instance_count: 1
+   instance_size_slug: basic-xxs
+   name: proxy
+   routes:
+   - path: /
    git:
      branch: main
      repo_clone_url: https://github.com/gabriel-pinheiro/mocko-example.git
