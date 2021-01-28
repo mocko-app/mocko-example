@@ -3,7 +3,7 @@ Here you'll find a simple Mocko deployment example that you can easily deploy to
 
 # Deploying
 
-## Glitch (Free)
+## Glitch (Free, No Registration)
 Click this button to deploy the app to glitch.com, it's free and you don't need to register.
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/gabriel-pinheiro/mocko-example)
@@ -12,7 +12,17 @@ Wait until the app is deployed (check `Tools -> Logs` in the bottom left corner)
 
 In the files drawer on the left, you can change the mocks inside the `mocks` folder and they'll update in real time.
 
+## Heroku (Free, Registration Required)
+Click this button to deploy the app to Heroku, it's free.
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+For more information about using Node.js on Heroku, see these Dev Center articles:
+
+- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
 ## DigitalOcean (Paid)
 Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
 
