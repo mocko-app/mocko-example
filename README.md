@@ -25,3 +25,7 @@ After clicking the "Deploy to DigitalOcean" button or completing the instruction
 
 # Making Changes to Your Deployment
 TODO
+
+# Usage
+TODO
+
