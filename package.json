@@ -7,7 +7,7 @@
     "node": ">=12.0.0"
   },
   "scripts": {
-    "start": "mocko --watch ./mocks",
+    "start": "mocko --watch --port $(node -e \"console.log(process.env.PORT || 8080)\") ./mocks",
     "start:prod": "mocko ./mocks"
   },
   "repository": {
