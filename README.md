@@ -6,7 +6,7 @@ Here you'll find a simple Mocko deployment example that you can easily deploy to
 ## Glitch (Free, No Registration)
 Click this button to deploy the app to glitch.com, it's free and you don't need to register.
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/gabriel-pinheiro/mocko-example)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/mocko-app/mocko-example)
 
 Wait until the app is deployed (check `Tools -> Logs` in the bottom left corner) and access it with the URL provided in the `Show -> In a New Window` button in the top left corner.
 
@@ -28,7 +28,7 @@ To have it automatically updated when you commit to the main branch, below that 
 ## DigitalOcean (Paid)
 Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/gabriel-pinheiro/mocko-example/tree/main&refcode=8481ef80a400)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/mocko-app/mocko-example/tree/main&refcode=8481ef80a400)
 
 Using this button disables the "Auto deploy changes on push" feature as you are using this repo directly. If you wish to try that feature, you will need to make your own copy of this repository.
 

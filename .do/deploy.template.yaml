@@ -10,4 +10,4 @@ spec:
    - path: /
    git:
      branch: main
-     repo_clone_url: https://github.com/gabriel-pinheiro/mocko-example.git
+     repo_clone_url: https://github.com/mocko-app/mocko-example.git

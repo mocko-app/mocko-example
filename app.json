@@ -1,7 +1,7 @@
 {
     "name": "Mocko Example",
     "description": "Mocking made easy, create dynamic mocks, proxy your API and choose which endpoints to mock",
-    "repository": "https://github.com/gabriel-pinheiro/mocko-example",
+    "repository": "https://github.com/mocko-app/mocko-example",
     "logo": "https://cdn.codetunnel.net/mocko/logo.png",
     "keywords": ["mock", "stub", "double", "http", "test"],
     "image": "heroku/nodejs"
