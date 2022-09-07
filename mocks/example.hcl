@@ -19,6 +19,6 @@ mock "GET /{any*}" {
     }
     </style>
     <h1>Hello from Mocko</h1>
-    Your deployment was successful, check <a href="https://mocko.dev/">our documentation</a> for usage.
+    Your deployment was successful, check <a href="https://docs.mocko.dev/">our documentation</a> for usage.
     EOF
 }
